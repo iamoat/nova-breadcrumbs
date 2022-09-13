@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisWare\NovaBreadcrumbs\Http\Controllers;
+namespace Octagonent\NovaBreadcrumbs\Http\Controllers;
 
-use ChrisWare\NovaBreadcrumbs\Traits\Breadcrumbs;
+use Octagonent\NovaBreadcrumbs\Traits\Breadcrumbs;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Collection;

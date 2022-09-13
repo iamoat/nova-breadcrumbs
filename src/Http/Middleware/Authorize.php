@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisWare\NovaBreadcrumbs\Http\Middleware;
+namespace Octagonent\NovaBreadcrumbs\Http\Middleware;
 
-use ChrisWare\NovaBreadcrumbs\NovaBreadcrumbs;
+use Octagonent\NovaBreadcrumbs\NovaBreadcrumbs;
 use Laravel\Nova\Nova;
 
 class Authorize

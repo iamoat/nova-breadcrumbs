@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisWare\NovaBreadcrumbs;
+namespace Octagonent\NovaBreadcrumbs;
 
 use Laravel\Nova\Nova;
 use Laravel\Nova\Tool;

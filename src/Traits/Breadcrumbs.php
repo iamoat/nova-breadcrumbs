@@ -1,6 +1,6 @@
 <?php
 
-namespace ChrisWare\NovaBreadcrumbs\Traits;
+namespace Octagonent\NovaBreadcrumbs\Traits;
 
 use Illuminate\Support\Collection;
 

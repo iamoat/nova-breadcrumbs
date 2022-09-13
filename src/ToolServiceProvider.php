@@ -1,8 +1,8 @@
 <?php
 
-namespace ChrisWare\NovaBreadcrumbs;
+namespace Octagonent\NovaBreadcrumbs;
 
-use ChrisWare\NovaBreadcrumbs\Http\Middleware\Authorize;
+use Octagonent\NovaBreadcrumbs\Http\Middleware\Authorize;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Support\ServiceProvider;
 
@@ -33,7 +33,7 @@ class ToolServiceProvider extends ServiceProvider
 
         Route::middleware(['nova', Authorize::class])
             ->domain(config('nova.domain', null))
-            ->prefix('nova-vendor/chris-ware/nova-breadcrumbs')
+            ->prefix('nova-vendor/octagonent/nova-breadcrumbs')
             ->group(__DIR__ . '/../routes/api.php');
     }
 

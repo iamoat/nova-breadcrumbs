@@ -1,6 +1,6 @@
 <?php
 
-use ChrisWare\NovaBreadcrumbs\Http\Controllers\NovaBreadcrumbsController;
+use Octagonent\NovaBreadcrumbs\Http\Controllers\NovaBreadcrumbsController;
 use Illuminate\Support\Facades\Route;
 
 /*
